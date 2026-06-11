@@ -1,12 +1,12 @@
 # Introduction to Git
 
-_Use Git version control while working on a simple todo-tracker website using command line (CLI) and VS Code._
+_Use Git version control while working on a simple todo tracker website using command line (CLI) and VS Code._
 
 ## Welcome
 
 - **Who is this for**: Beginner developers who want to learn Git version control
 - **What you'll learn**: Fundamental Git concepts including commits, branches, history, and collaboration basics
-- **What you'll build**: You'll create a Git repository and iterate on a simple todo-tracker website while learning Git fundamentals.
+- **What you'll build**: You'll create a Git repository and iterate on a simple todo tracker website while learning Git fundamentals.
 - **Prerequisites**:
 
   - No prior Git or version control experience required.
