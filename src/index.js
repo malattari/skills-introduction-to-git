@@ -23,10 +23,13 @@ function renderTodos() {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.checked = Boolean(todo.closedAt);
+    checkbox.disabled = Boolean(todo.closedAt);
     checkbox.setAttribute("aria-label", `Mark ${todo.text} as closed`);
     checkbox.addEventListener("change", () => {
-      todo.closedAt = checkbox.checked ? new Date() : null;
-      renderTodos();
+      if (!todo.closedAt && checkbox.checked) {
+        todo.closedAt = new Date();
+        renderTodos();
+      }
     });
 
     const textWrapper = document.createElement("div");
